@@ -2,7 +2,6 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def turn_count(board)
   counter = 0
-  input.strip
   board.each do |spaces|
     counter += 1
   end
