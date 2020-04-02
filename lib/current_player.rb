@@ -11,7 +11,7 @@ counter
 end
 
 def current_player(turn_count)
-  if input.even?
+  if turn_count.even?
     return "X"
   else
     return "O"
